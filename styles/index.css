@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0;
+
+}
+
+#belownav {
+    background-color: #000;
+    height: 1000px;
+}
+
+#navbar {
+    height: 70px;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #131A27;
+    color: white;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.left {
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.left>img {
+    width: 100px;
+    height: 42px;
+    width: 115px;
+    margin-bottom: 10px;
+}
+
+.right {
+    /* border:2px solid green; */
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+
+
+}
+
+.right input {
+    border: none;
+    background-color: #131A27;
+    outline: none;
+    /* border-bottom: 1px solid white; */
+    width: 200px;
+
+    padding: 10px 0px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.2px;
+
+}
+
+
+
+#ash {
+    /* text-decoration: underline; */
+    border-bottom: 0.5px solid white;
+}
+
+#ash>i {
+    /* border:1px solid yellow; */
+    /* margin-top: -20px; */
+    position: relative;
+    top: 8px;
+    /* left: 10px; */
+
+    color: grey;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: white;
+}
+
+.left a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+.Dis {
+    font-weight: bold;
+    color: white;
+}
+
+.kids {
+    color: rgb(243, 243, 12);
+}
+
+.sub {
+    padding: 3px 15px;
+    border-radius: 6px;
+    background-color: rgb(56, 119, 237);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.log {
+    background: transparent;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* #Tvdropdown{
+    
+    height:250px;
+    width:30px;
+    background-color: white;
+} */
+#Tvdropdownlist {
+    display: none;
+    /* margin-top: 150px; */
+    background-color: #131A27;
+    color: white;
+    /* width:100px; */
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+
+
+
+
+}
+
+#Tvdropdown:hover #Tvdropdownlist {
+    display: block;
+    position: relative;
+
+
+
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    /* margin-top: 15px; */
+    /* position:fixed; */
+    position: fixed;
+}
+
+.d-block {
+    height: 500px;
+    /* width:200px; */
+    
+}
+
+.carousel-control-next {
+    width: 48px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: black;
+}
+
+.carousel-control-prev {
+    width: 48px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: black;
+}
+.latest {
+    width: 100%;
+    position: relative;    
+    align-items: center;    
+    margin-right: 10px;
+    transition: .5s;   
+    display: flex;
+    
+}
+.movies-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+
+} 
+
+.search-img {
+    width: 100px;
+    height: 80px;
+}
