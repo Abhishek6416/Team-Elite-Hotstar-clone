@@ -9,23 +9,35 @@
 #logo-brand {
     display: flex;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     margin-top: 12px;
-    top: 0;
-    left: 0;
-    right: 0;
+    /* top: 0; */
+    /* left: 0;
+    right: 0; */
+}
+#payFrom{
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+#bankMain{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
 }
 
 #logo-brand>img {
     width: 120px;
 }
 #bankDetails{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    margin-top: 100px;
     width: 400px;
     padding: 40px;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 .payBox input{
     position: relative;
@@ -101,30 +113,69 @@ button{
     cursor: pointer;
 }
 #cvvimg {
-    visibility: hidden;
+    /* visibility: hidden; */
+
     position: absolute;
     width: 300px;
-    display: flex;
-    margin: auto;
-    margin-top: 140px;
+    /* display: flex; */
+    /* margin: auto; */
+    margin-top: -120px;
     z-index: 9;
-    margin-left: 689px;
+    /* margin-left: 689px; */
     border-radius: 8px;
     border: 1px solid rgb(193, 191, 191);
 }
-#dot{
+/* #dot{
     position: absolute;
-    /* width: 3px; */
     display: flex;
-    /* margin: auto; */
     margin-top: 255px;
-    /* z-index: -9; */
     margin-left: 689px;
     color: #f2f2f2;
-    /* border-radius: 8px; */
-    /* border: 8px solid rgb(193, 191, 191); */
+    border: 8px solid rgb(193, 191, 191);
 
-}
-#dot:hover ~ #cvvimg{
+} */
+/* #dot:hover ~ #cvvimg{
     visibility: visible;
+} */
+/* .payBox{
+    width: 100%;
+} */
+.payBox i{
+    position: absolute;
+    /* border: 1px solid red; */
+    /* margin-left: 100px; */
+    cursor: pointer;
+    float: right;
+}
+.payBox .fa-solid {
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: -14px;
+    min-width: 50px;
+    text-align: end;
+}
+#cvvDiv{
+    display: none;
+}
+.payBox i:hover + #cvvDiv{
+    display: block;
+}
+@media screen and (min-width: 0px) and (max-width: 646px){
+    #cvvimg {
+        /* visibility: hidden; */
+    
+        position: absolute;
+        width: 250px;
+        margin-top: -120px;
+        z-index: 9;
+        margin-left: -100px;
+        border-radius: 8px;
+        border: 1px solid rgb(193, 191, 191);
+    }
+    #bankDetails{
+        width: 360px;
+    }
+    #bankDetails button{
+        width: 280px;
+    }
 }

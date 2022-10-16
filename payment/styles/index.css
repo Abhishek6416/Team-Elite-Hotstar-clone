@@ -19,11 +19,18 @@
     width: 120px;
 }
 
+#payFrom{
+    margin-top: 100px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+
 #payContainer {
     /* border: 1px solid red; */
     width: 300px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 #payContainer .payLink {
