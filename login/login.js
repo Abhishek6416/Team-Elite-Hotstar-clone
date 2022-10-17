@@ -36,8 +36,9 @@ function tab3(){
   
   else{
     form.style.marginLeft="-200%";
-    
-    localStorage.setItem("number",number);
+  
+   localStorage.setItem("number",JSON.stringify(number));
+
     var otp = '';
     
     var digits = '0123456789';
