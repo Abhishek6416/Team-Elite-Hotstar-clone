@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catstar</title>
+    <link rel="stylesheet" href="../footer/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body onload="foo()">
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="slider">
+          <div class="slider-content">
+            <div class="slider-content-top">
+              <h1 id="m-title"></h1>
+              <h4 style="display: flex" id="m-metadata">
+                <p id="duration">2 hr</p>
+                &ensp;
+                <p>•</p>
+                &ensp;
+                <p id="release-date"></p>
+                &ensp;
+                <p>•</p>
+                &ensp;
+                <p id="genre"></p>
+                &ensp;
+                <p>•</p>
+                &ensp;
+                <p id="language"></p>
+              </h4>
+
+              <p id="m-overview"></p>
+            </div>
+
+            <div class="slider-content-bottom">
+              <!-- <div class="play-btn"><img src="./images/play.png" alt="" /></div> -->
+              <div class="play-btn">
+                <i
+                  class="fa-sharp fa-solid fa-play fa-lg"
+                  onclick="popup()"
+                ></i>
+                <span id="span1" onclick="popup()">Watch Trailer </span>
+                <i
+                  class="fa-solid fa-plus fa-xl"
+                  onclick="addToWatchlist()"
+                  id="watch"
+                ></i>
+                <i class="fa-solid fa-share-nodes fa-xl"></i>
+              </div>
+              <!-- <div class="watch"></div> -->
+            </div>
+            <div id="watchlist">
+              <span id="span2" onclick="addToWatchlist()">WATCHLIST</span>
+              <span id="span3">SHARE</span>
+            </div>
+          </div>
+          <img id="m-poster" />
+        </div>
+      </div>
+    </div>
+
+    <div id="morelike">More Like This</div>
+
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="./images/pre.png" alt="" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="./images/nxt.png" alt="" />
+      </button>
+      <div class="card-container"></div>
+    </div>
+
+    <!-- footer html/ -->
+    <div id="parentbox">
+      <div class="box1">
+        <div class="go">
+          <h5>About Diseny+ Hotstar</h5>
+          <h5>Terma Of Use</h5>
+          <h5>Privacy Policy</h5>
+          <h5>F&Q</h5>
+          <h5>Feedback</h5>
+          <h5>Careers</h5>
+        </div>
+        <div class="went">
+          <p>
+            © 2022 STAR. All Rights Reserved. HBO, Home Box Office and all
+            related channel and programming logos are service marks of, and all
+            related programming visuals and elements are the property of, Home
+            Box Office, Inc. All rights reserved.
+          </p>
+        </div>
+      </div>
+      <div class="box2">
+        <h4>Contact with us</h4>
+        <div>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+        </div>
+      </div>
+      <div class="box3">
+        <h4>Diseny+ Hotstar</h4>
+        <img
+          src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png"
+          alt="logos"
+        />
+      </div>
+    </div>
+  </body>
+</html>
+<script
+  src="https://kit.fontawesome.com/5a398c8d78.js"
+  crossorigin="anonymous"
+></script>
+<script defer src="test.js"></script>
