@@ -58,7 +58,9 @@
 
 #ash {
     /* text-decoration: underline; */
-    border-bottom: 0.5px solid white;
+    border: 0.5px solid red;
+    /* margin-top: 50%; */
+    height:50px;
 }
 
 #ash>i {
@@ -69,6 +71,24 @@
     /* left: 10px; */
 
     color: grey;
+}
+
+.search-drop{
+    padding: 0px 50px;
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: auto;
+    text-align: justify;
+    background-color: black;
+    /* margin-top: 70%; */
+    border-radius: 8px;
+    /* opacity: 0;
+    pointer-events: none; */
+    border:2px solid teal;
+    
+    
+
+
 }
 
 ::placeholder {
