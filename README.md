@@ -1,9 +1,15 @@
 Technologies which we used →
+
 Html,
+
 CSS,
+
 JavaScript,
+
 Jquery,
+
 JSON
+
 API → TheMoveiDB & Youtube,
 
 Time Duration -> 5–7 Days
